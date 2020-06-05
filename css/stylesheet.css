@@ -1,0 +1,153 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: "Hiragino Kaku Gothic ProN";
+    color: black;
+    line-height: 1.6;
+}
+
+section {
+    padding: 40px 0;
+}
+
+li{
+    list-style: none;
+}
+
+.header {
+    background-color: rgba(221, 221, 221, 0.89);
+    color:#555;
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-logo {
+    font-size:30px;
+    padding:10px 40px;
+    font-weight: bold;
+}
+
+.header-list li {
+    float: left;
+    padding: 22px 30px;
+}
+
+.header-list li a:hover{
+    color :#45bcef;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.main {
+    color :#555;
+    /* height: 600px;
+    background-size: cover;
+    background-position: 50% 50%; */
+}
+
+#first-v {
+    background-image: url(../img/thum.jpg);
+    background-size: cover;
+    height: 600px;
+    font-size: 20px;
+    background-position: 50% 50%;
+    text-align: center;
+    line-height: 600px;
+    margin-top: 70px;
+}
+
+#first-v h1 {
+    left: 50%;
+    height: 100;
+    padding-top: 250px;
+    color: white;
+    
+}
+
+ #servises, #network, .wrap{
+    width: 600px;
+    margin: 0 auto;
+    letter-spacing: 5px;
+}
+
+#profile {
+    display: flex;
+    margin-top: 50px;
+}
+
+.profile-img {
+    margin-left: 100px;
+    margin-right: 25px;
+    width: 300px;
+    height: 300px;
+}
+
+
+.wrap h3,h4,h4{
+    padding-top: 20px;
+}
+
+.copy-right {
+    background-color: gray;
+    color: black;
+    text-align: center;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+body {
+  background: #1F1E24;
+  height: 200px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 15px;
+}
+
+.bar {
+  position: relative;
+  width: 100%;
+  height: 48px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-bottom: 1.5rem;
+  border-radius: 5px;
+}
+.bar .bar-info {
+  border-radius: 5px;
+  padding: 0.75rem;
+  background: #fd7473;
+  color: white;
+  width: 10%;
+  position: relative;
+  height: 40px;
+  transition: width 3.3s ease-in-out;
+}
+.bar .bar-info .percent {
+  float: right;
+}
+.bar .bar-info.html {
+  background: linear-gradient(#fd7473, #FC688E), #fd7473;
+}
+.bar .bar-info.css {
+  background: linear-gradient(#fec951, #FCAD44), #fec951;
+}
+.bar .bar-info.js {
+  background: linear-gradient(#47b8e0, #28BEFA), #47b8e0;
+}
+.bar .bar-info.ps {
+  background: linear-gradient(#9f68d0, #BB68D0), #9f68d0;
+}
